@@ -62,6 +62,20 @@ Le seul inconvénient il faut un temps d'attente avant de pouvoir se déplacer ,
 
 # Les sorts
 
+Les sorts font partie du gameplay principal , et mon but c’est de pouvoir en faire une partie customisable par le joueur .
+
+Donc tout d’abord j’ai fait un visuel pour les sors utilisé par le joueur , le cooldown est donc affiché sur le visuel du sort ce qui est plus compréhensible pour le joueur .
+
 ![Screenshot07](\assets\images\RogueLike_9.PNG)
+
+J’ai créé un emplacement pour y stocker ses sorts
+Et par la suite permettre au joueur de choisir lui même ses sorts faire un système d’amélioration / personnalisation.
+
 ![Screenshot08](\assets\images\RogueLike_10.PNG)
+
+La création et customisation de sorts est déjà en place , cela permet d’en créer une infinité tout en changeant les stats de ceux ci très facilement !
+
 ![Screenshot09](\assets\images\RogueLike_11.PNG)
+
+Voilà pour l’instant ce qui à été fait sur ce projet
+Pleins de choses reste à faire, ce n'est que le début de celui-ci !
