@@ -7,6 +7,6 @@ title: "[WIP] Projet Party Game Unreal 4.27"
 
 ![iy](\assets\images\Unity.png)
 
-**Bonjour !** Voici un petit résumé du projet Unity sur lequel je travail !
+**Bonjour !** Voici un petit résumé du projet Unreal sur lequel je travail !
 
 Bonne lecture !

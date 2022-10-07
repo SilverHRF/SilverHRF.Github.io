@@ -23,19 +23,19 @@ Pour cela j'ai utilisé le Depth First Search , qui permet dans une grille de fa
 
 J’y ai donc rajouté par la suite des règles pour pouvoir avoir la main sur l’aléatoire de la création de ce chemin .
 
-![Screenshot](\assets\images\RogueLike_3.PNG)
+![Screenshot00](\assets\images\RogueLike_3.PNG)
 Ici le chemin s'est fait sur cette grille .
 
-![Screenshot](\assets\images\RogueLike_1.PNG)
-![Screenshot](\assets\images\RogueLike_2.PNG)
+![Screenshot01](\assets\images\RogueLike_1.PNG)
+![Screenshot02](\assets\images\RogueLike_2.PNG)
 Ici on peut voir la même taille de grille et un chemin différent !
 
 Et je peux par la suite créer les salles comme bon me semble , tant qu’elle reste dans la taille d’une case .
-![Screenshot](\assets\images\RogueLike_5.PNG)
+![Screenshot03](\assets\images\RogueLike_5.PNG)
 On peut y changer la taille de la grille.
 Et dans la partie surligné , tout d'abord on peut y renseigner le type de salle , celle présente dans les préfabs du projet.
 Après on peut y renseigner les positions MIN et MAX dans la grille , et la case obligatory c'est pour savoir si la salle en question est prioritaire dans son apparition ou pas .
 
-![Screenshot](\assets\images\RogueLike_6.PNG)
+![Screenshot04](\assets\images\RogueLike_6.PNG)
 
 Je peux par la suite affiner cet algorithme pour que la taille des salles ne soit plus un problème .
