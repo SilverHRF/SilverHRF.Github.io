@@ -271,7 +271,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "YEAR-MONTH-DAY-title.md"
       type: posts
     values:
       layout: single
