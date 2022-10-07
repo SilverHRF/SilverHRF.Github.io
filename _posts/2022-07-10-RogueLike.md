@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Projet Rogue Like Unity"
+title: "[WIP] Projet Rogue Like Unity"
 ---
 
 # Bienvenue sur le post de mon projet sur Unity

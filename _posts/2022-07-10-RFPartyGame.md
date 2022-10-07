@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Projet Party Game Unreal 4.27"
+title: "[WIP] Projet Party Game Unreal 4.27"
 ---
 
 # Bienvenue sur le post de mon projet multijoueur sur Unreal 4.27 !
