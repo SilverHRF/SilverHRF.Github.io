@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[WIP] Projet Party Game Unreal 4.27"
 ---
 
