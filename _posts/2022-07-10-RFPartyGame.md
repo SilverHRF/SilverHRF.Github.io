@@ -67,7 +67,7 @@ Maintenant, parlons un peu de comment ce présent mon menu, et comment les joueu
 
 # Le menu et création de partie !
 
-![ScreenShot002](\assets\images\Ue4_Multi\Cap13.png){: .align-center}
+![ScreenShot002](\assets\images\Ue4_Multi\Cap13.PNG){: .align-center}
 
 Comme vous pouvez le voir sur ce menu un peu sommaire nous avons plusieurs informations
 
@@ -77,7 +77,7 @@ Cela par la suite nous permet aussi d'avoir accès à la liste d'amis du joueur 
 
 Lorsqu'on appuie sur le bouton jouer, on arrive sur une interface.
 
-![ScreenShot003](\assets\images\Ue4_Multi\Cap14.png){: .align-center}
+![ScreenShot003](\assets\images\Ue4_Multi\Cap14.PNG){: .align-center}
 
 Ceci est le menu de création et recherche de serveurs.
 
@@ -85,7 +85,7 @@ Ceci est le menu de création et recherche de serveurs.
 
 Et à gauche, le joueur peut créer son propre serveur !
 
-![ScreenShot003](\assets\images\Ue4_Multi\Cap15.png){: .align-center}
+![ScreenShot011](\assets\images\Ue4_Multi\Cap15.PNG){: .align-center}
 
 Il peut choisir le nom du serveur, le nombre de joueurs qui peuvent y rentrer et savoir quelle méthode utiliser pour le host.
 
@@ -93,7 +93,7 @@ Sans rentrer dans les détails, le joueur peut se connecter soit en Internet soi
 
 Lorsque le joueur créé une session ou rejoins une session, il va arriver sur ce menu.
 
-![ScreenShot004](\assets\images\Ue4_Multi\Cap16.png){: .align-center}
+![ScreenShot004](\assets\images\Ue4_Multi\Cap16.PNG){: .align-center}
 
 Les boutons vont être différents si il est un simple client ou bien le host.
 
@@ -103,7 +103,7 @@ Tout d'abord le choix du jeu.
 
 Puis d'exclure certains joueurs.
 
-![ScreenShot005](\assets\images\Ue4_Multi\Cap17.png){: .align-center}
+![ScreenShot005](\assets\images\Ue4_Multi\Cap17.PNG){: .align-center}
 
 Il va par la suite pouvoir lancer la partie quand tous les joueurs sont prêt !
 
@@ -127,7 +127,7 @@ J'ai donc choisi le principe du Capture the flag, le but récupérer le drapeau 
 
 Dans un premier temps, il m'a fallu créer le choix des équipes !
 
-![ScreenShot006](\assets\images\Ue4_Multi\Cap1.png){: .align-center}
+![ScreenShot006](\assets\images\Ue4_Multi\Cap1.PNG){: .align-center}
 
 Pour cela, les joueurs sont tout d'abord mis en spectateur et doivent rejoindre une équipe avant de pouvoir lancer la partie !
 
@@ -135,17 +135,17 @@ Quand celle-ci ce lance un timer se met en route !
 
 Et la partie peut commencer.
 
-![ScreenShot007](\assets\images\Ue4_Multi\Cap2.png){: .align-center}
+![ScreenShot007](\assets\images\Ue4_Multi\Cap2.PNG){: .align-center}
 
 Pour commencer dans la partie gameplay, j'ai créé le système de tir/visé.
 
 Pour cela, j'y ai ajouté des animations qui permettent de changer d'état, lorsque l'on s'accroupit le joueur est plus lent.
 
-![ScreenShot009](\assets\images\Ue4_Multi\Cap3.png)
+![ScreenShot009](\assets\images\Ue4_Multi\Cap3.PNG)
 
 Ou bien lorsque le joueur vise il à une meilleure vision d'où il tire.
 
-![ScreenShot008](\assets\images\Ue4_Multi\Cap4.png){: .align-center}
+![ScreenShot008](\assets\images\Ue4_Multi\Cap4.PNG){: .align-center}
 
 ** Cette partie doit encore être peaufiné , il me reste du chemin pour que cela soit parfait, mais pour du proto ça reste suffisant !**
 
@@ -154,16 +154,17 @@ Pour pouvoir détecter les balles et appliquer les dégâts, j'aurais pu garder 
 
 J'ai donc créer une collision personnalisée, et cela me permet par la suite de choisir le montant des dégâts localisé
 
-{% include image-gallery.html folder="/uploads/album" %}
+{% include image-gallery.html folder="\assets\images\Ue4_Multi\Collision" %}
 
 Avec ça, il ne me restait qu'à créer un système de munitions et de vie des joueurs !
 
+![ScreenShot010](\assets\images\Ue4_Multi\Cap7.PNG){: .align-center}
 
 Dès lors que le joueur n'as plus de balle celui-ci doit recharger (animation qui permet aux autres joueurs que celui-ci recharge)
 
 Et si un joueur venait à ne plus avoir de pv , il meurt, et un UI apparaît pour lui montrer qui l'as tué et un timer avant de pouvoir revenir sur le champ de bataille !
 
-
+![ScreenShot012](\assets\images\Ue4_Multi\Cap8.PNG){: .align-center}
 
 Maintenant, que le déplacement et le tir sont faits ! Il ne reste que la capture de drapeau !
 
@@ -171,16 +172,23 @@ Pour cela, j'ai y faire des règles simples !
 
 Un joueur bleu peut récupérer le drapeau rouge, dans la base rouge.
 
+![ScreenShot013](\assets\images\Ue4_Multi\Cap5.PNG){: .align-center}
+
 Dès lors que le joueur récupère le drapeau, il l'a sur son dos et des particules apparaisses autour de lui !
+
+![ScreenShot014](\assets\images\Ue4_Multi\Cap6.PNG){: .align-center}
 
 Son objectif le ramenait à sa base pour mettre le point !
 
 S'il meurt lors de ce transport, le drapeau tombe par terre et le plus rapide à le récupérer, dans le cas du drapeau rouge, si un joueur rouge le récupère le drapeau revient à sa base, si c'est un joueur bleu la course repars de plus belle !
 
+![ScreenShot015](\assets\images\Ue4_Multi\Cap9.PNG){: .align-center}
+
 Si le joueur bleu arrive à bon port ! Et que son drapeau lui est toujours présent alors il peut marquer le point !
 
-Et les drapeaux retournent tous à leurs bases et ne peuvent être récupérés que quelques secondes après la mise du point !
+![ScreenShot016](\assets\images\Ue4_Multi\Cap10.PNG){: .align-center}
 
+Et les drapeaux retournent tous à leurs bases et ne peuvent être récupérés que quelques secondes après la mise du point !
 
 Il ne me reste qu'à vous parler du système de notification que j'ai mis en place, que je pourrais réutiliser par la suite !
 
@@ -188,13 +196,22 @@ J'ai créé un système de structure pour pouvoir y mettre plusieurs information
 
 Pour l'instant au plus simple, avec le texte à envoyer puis la couleur.
 
+![ScreenShot017](\assets\images\Ue4_Multi\Cap11.PNG){: .align-center}
 
 Maintenant comment les notifications sont reçu puis afficher, tout d'abord si aucune notification n'est en cours alors celle-ci va s'afficher et si aucune n'arrive le temps d'affichage alors elle restera affiché le temps maximal donné.
 
 Or, si une notification arrive, on va dire 1 sec après, tout d'abord elle ne va pas s'afficher, mais se mettre dans une liste d'attente, si la liste d'attente et remplis alors les notifications resterons moins longtemps afficher sur l'écran le temps de voir les autres avec pas trop de délais !
+
+![ScreenShot018](\assets\images\Ue4_Multi\Cap12.PNG){: .align-center}
 
 Un système assez simple et puissant que je pourrais modifier à ma guise par la suite !
 
 C'est à peu près tout ce que j'ai mis en place pour l'instant pour ce prototype.
 
 Il ne reste plus qu'à itéré des maps de jeu !
+
+
+
+Je suis encore sur l'élaboration d'autre proto de jeu que je vous montrerai plus tard !
+
+Merci d'avoir lu !
