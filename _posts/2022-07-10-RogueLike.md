@@ -7,7 +7,7 @@ title: "[WIP] Projet Rogue Like Unity"
 
 ![Unity](\assets\images\Unity.png)
 
-**Bonjour !** Voici un petit résumé du projet Unity sur lequel je travail !
+**Bonjour !** Voici un petit résumé du projet Unity sur lequel je travaille !
 
 Bonne lecture !
 
@@ -15,9 +15,9 @@ Je vais donc vous présenter mon projet unity sur lequel je me suis lancé pour 
 
 Voici donc les étapes de mon projet avec des explications simples de comment cela peut être utilisé par un game designer par exemple .
 
-# La génération procédural
+# La génération procédurale
 
-Tout d'abord j'ai dû créer un système procédural pour faire apparaître des niveaux aléatoirement .
+Tout d'abord j'ai dû créer un système procédurale pour faire apparaître des niveaux aléatoirement .
 
 Pour cela j'ai utilisé le Depth First Search , qui permet dans une grille de faire un chemin , cela forme un labyrinthe .
 
@@ -46,19 +46,19 @@ Je peux par la suite affiner cet algorithme pour que la taille des salles ne soi
 
 # Le déplacement
 
-Pour ce projet j'ai décider de faire un déplacement avec une caméra top down et le joueur se déplace avec le clique droit !
+Pour ce projet j'ai décidé de faire un déplacement avec une caméra top down et le joueur se déplace avec le clique droit !
 
 ![Screenshot05](\assets\images\RogueLike_7.PNG)
 
-Pour cela , j'ai utilisé le navMesh , un principe utilisé de base pour le pathfiding , les IA etc ...
+Pour cela , j'ai utilisé le navMesh , un principe utilisé de base pour le pathfinding , les IA etc ...
 
-Et ici je m'en suis servi pour y faire le déplacement du joueur. Mais pour que cela fonctionne il faut que les surfaces jouables soient calculé et qu'un bake soit effectué.
+Et ici je m'en suis servi pour y faire le déplacement du joueur. Mais pour que cela fonctionne il faut que les surfaces jouables soient calculées et qu'un bake soit effectué.
 
-Malheureusement comme les niveaux se forment aléatoirement les prébakes ne sont pas possible . Donc un bake est éffectué après que le niveau se forme pour que les salles soient liés entre elles.
+Malheureusement comme les niveaux se forment aléatoirement les prébakes ne sont pas possible . Donc un bake est effectué après que le niveau se forme pour que les salles soient liées entre elles.
 
 ![Screenshot06](\assets\images\RogueLike_8.PNG)
 
-Le seul inconvénient il faut un temps d'attente avant de pouvoir se déplacer , cela va augmenter le temps de chargement d'un niveau.
+Le seul inconvénient, il faut un temps d'attente avant de pouvoir se déplacer , cela va augmenter le temps de chargement d'un niveau.
 
 # Les sorts
 
