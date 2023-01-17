@@ -17,7 +17,7 @@ Le but du jeu ? Très simple ! Simplement manger et détruire toute la table san
 
 Voici le lien pour tester le jeu :
 
-link:https://lioniks.itch.io/sousriz
+
 
 ![iy](\assets\images\Ue4_Multi\Sousriz.png){: .align-center}
 
