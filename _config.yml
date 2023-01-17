@@ -127,6 +127,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+      label: "Itch.io"
+      icon: "fas fa-fw fa-link"
+      url: "https://puigromain.itch.io/"
 
 # Site Footer
 footer:
