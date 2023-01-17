@@ -5,7 +5,7 @@ title: "Sous Riz ! Projet en 12H"
 
 # Bienvenue sur le post rapide du projet Sous fait en 12H!
 
-![iy](\assets\images\Ue4_Multi\cons3.png){: .align-center}
+![iy](\assets\images\Construc\cons3.png){: .align-center}
 
 Petit post pour vous parler de ce petit projet créé lors d'un workshop de 3 jours.
 
@@ -17,8 +17,8 @@ Le but du jeu ? Très simple ! Simplement manger et détruire toute la table san
 
 Voici le lien pour tester le jeu :
 
+link: https://lioniks.itch.io/sousriz
 
-
-![iy](\assets\images\Ue4_Multi\Sousriz.png){: .align-center}
+![iy](\assets\images\Construc\Sousriz.png){: .align-center}
 
 Merci d'avoir lu !
