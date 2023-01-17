@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_data"
+    "\\_data",
+    "\\_includes"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\.gitattributes",
   "PreviewInSolutionExplorer": false
 }
